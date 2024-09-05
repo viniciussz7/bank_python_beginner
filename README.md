@@ -13,6 +13,7 @@ Realizado durante bootcamp *NTT DATA - Engenharia de Dados com Python* da DIO.
 
 ## Regras de negócio
 
+* Há apenas 3 operações: deposito, saque e extrato
 * O saldo inicial é R$ 0.00
 * Não pode haver depósito nem saque de valor negativo
 * Saque só é realizado se houver saldo suficiente
