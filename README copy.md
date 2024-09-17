@@ -10,6 +10,7 @@ Realizado durante bootcamp *NTT DATA - Engenharia de Dados com Python* da DIO.
 * input()
 * Estruturas condicionais e de repetição
 * string format
+* Estruturas de dados: listas, dicionarios
 
 ## Regras de negócio
 
@@ -20,6 +21,7 @@ Realizado durante bootcamp *NTT DATA - Engenharia de Dados com Python* da DIO.
 * O valor limite por operação de saque é R$ 500
 * O limite de saques diários são 3
 * No extrato deve conter todas as operações realizadas e o saldo atual no formato R$ X.XX
+* Usuario pode ter varias contas, mas uma conta pode ser apenas de um usuario.
 
 
 Enjoy.
