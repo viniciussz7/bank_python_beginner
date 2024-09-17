@@ -1,18 +1,18 @@
-import textwrap
+#import textwrap
 
 def menu():
     menu = """\n
     =============== MENU ================
-    [d]\t Depositar
-    [s]\t Sacar
-    [e]\t Extrato
-    [nc]\t Nova conta
-    [lc]\t Listar contas
-    [nu]\t Novo usuario
-    [q]\t Sair
+    [d]\tDepositar
+    [s]\tSacar
+    [e]\tExtrato
+    [nc]\tNova conta
+    [lc]\tListar contas
+    [nu]\tNovo usuario
+    [q]\tSair
     
     => """
-    return input(textwrap.dedent(menu))
+    return input(menu)
 
 def depositar(saldo, valor, extrato, /):
     if valor>0:
@@ -89,8 +89,8 @@ def listar_contas(contas):
             Titular:\t{conta['usuario']['nome']}
         """
 
-        print("=" * 100)
-        print(textwrap.dedent(linha))
+        print("=" * 50)
+        print(linha)
 
 def main():
     LIMITE_SAQUES = 3
@@ -141,3 +141,5 @@ def main():
         
         else:
             print("\n@@@ Operacao invalida, por favor selecione novamente a operação desejada. @@@")
+
+main()
